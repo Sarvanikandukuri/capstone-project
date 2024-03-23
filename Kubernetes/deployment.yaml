@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: node-multiple-env
-        image: ashok9875/node-multiple-env-project
+        image: sarvanikandukuri/node-multiple-env-project
         ports:
         - containerPort: 3001

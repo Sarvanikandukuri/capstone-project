@@ -1,5 +1,5 @@
 {
-  "name": "node-multiple-env",
+  "name": "multiple-env",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -16,5 +16,18 @@
     "http-errors": "~1.6.3",
     "latest": "^0.2.0",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "```  .env.development  .env.staging   .env.production  ``` ## package.json ```json \"scripts\": {     \"start\": \"env-cmd -f .env.development node ./bin/www\",     \"start:staging\": \"env-cmd -f .env.staging node ./bin/www\",     \"start:production\": \"env-cmd -f .env.production node ./bin/www\" }, ``` ## development ```bash npm start  ```",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarvanikandukuri/capstone-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarvanikandukuri/capstone-project/issues"
+  },
+  "homepage": "https://github.com/Sarvanikandukuri/capstone-project#readme"
 }
